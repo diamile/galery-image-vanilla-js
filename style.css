@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+    padding: 0;
+    background: #333;
+}
+
+.container {
+    max-width: 760px;
+    margin: auto;
+    border: #fff solid 3px;
+    background: #fff;
+}
+
+.main-img img, .imgs img {
+    width: 100%;
+}
+
+.imgs img {
+    height: 160px;
+}
+
+.main-img img {
+    height: 480px;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
